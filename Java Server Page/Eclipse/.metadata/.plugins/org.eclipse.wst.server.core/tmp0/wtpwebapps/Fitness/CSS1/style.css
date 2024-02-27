@@ -1,0 +1,66 @@
+.outer{
+    height: 100%;
+    width: 100%;
+    background-color: violet;
+}
+.banner{
+    height: 600pt;
+    width: 100%;
+        background: url("../img/hero/hero-1.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+        
+}
+.carousel{
+	height: 450pt;
+}
+.navbar-default{
+    background-color: transparent;
+    border: none;
+}
+.nav{
+    margin-left: 45vw;
+}
+.nav li{
+    margin: 2pt 8pt;
+    margin-top: -31pt;
+    font-size: 0.5cm;
+    font-family: ui-monospace;
+}
+.text{
+/*    background-color: aquamarine;*/
+    height: 33%;
+    width: 45%;
+/*    display: flex;*/
+    margin: 12vw 42vw;
+}
+.text span{
+        font-size: 2em;
+    margin: 30pt;
+     color: #ffffff;
+}
+.text h1{
+    font-size: 5vw;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: ui-sans-serif;
+}
+.text strong{
+    font-weight: bolder;
+    color: #F36100;
+}
+.text a{
+    text-decoration: none;
+}
+.primary-btn{
+    display: inline-block;
+    font-size: 14px;
+    padding: 17px 30px 16px;
+    color: #ffffff;
+    background: #f36100;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+ 

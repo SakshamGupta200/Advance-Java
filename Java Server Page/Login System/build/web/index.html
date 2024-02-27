@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css1/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+        
+        <style>
+/*            .banner{
+                 background-image: url("image/bann.jpg");
+                 background-repeat: no-repeat;
+                 background-size: cover;
+            }*/
+.log h1{
+    text-align: center;
+    font-family: monospace;
+}
+        </style>
+    </head>
+    <body>
+        <form action="welcome.jsp" method="post">
+            <div class="outer">
+            <div class="banner">
+                <img src="image/bann.jpg">
+            </div>  
+            <div class="menu">
+                <nav class="navbar navbar-expand-lg" style="width:100vw; background-color:violet;">
+				<div class="container-fluid">
+					<div class="navbar-header">						
+						<ul class="nav nav-tabs">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Training</a></li>
+							<li><a href="#">Timetable</a></li>
+							<li><a href="#">Nutrition</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Contact</a></li>							
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+            </div>
+            <div class="work">
+                <div class="container">
+                        <div class="log">
+                            <h1>Login Here</h1>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="id">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="pass">
+                            </div>
+                                <input type="submit" value="Login">
+                        </div>
+                </div>
+            <div class="footer"></div>
+        </div>
+        
+
+        </form>
+        <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

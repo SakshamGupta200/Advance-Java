@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.outer{
+	height: 200vh;
+	width: 800pt;
+	background: linear-gradient(red,yellow);
+}
+.imgs{
+	height: 40vh;
+    width: 20vw;
+    background-color: cyan;
+    float: left;
+    margin: 6pt 18pt;
+}
+.imgs img{
+	height: 40vh;
+    width: 20vw;
+}
+.row{
+	margin-top: 42pt;
+}
+.col-4 input{
+	margin-left: 8vw;
+    width: 30%;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+	<bean class="Auto.Test.Stdent" name="Std">
+	<constructor-arg>
+		<value>129</value>
+	</constructor-arg>
+	<constructor-arg>
+		<value>Saksham Gupta</value>
+	</constructor-arg>
+	</bean>		
+</beans>

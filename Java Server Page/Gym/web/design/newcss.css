@@ -1,0 +1,27 @@
+.cap{
+    zoom: 1;
+    bottom: 198px;
+    background-color: transparent;
+    color: #fff;
+    margin: 0;
+    padding: 2px 25px 0px 30px;
+    /* position: absolute; */
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    right: 0px;
+    display: inline-block;
+    bottom: 10%;
+    width: 76%;
+    right: 0 !important;
+    border-radius: 15px 15px 0 0;
+    text-align: left;
+}
+.cap{
+    background: rgba(0,0,0,.8);
+    margin-left: 5px;
+    bottom: 5px;
+    position: absolute;
+    padding: 20px;
+    z-index: 99;
+}

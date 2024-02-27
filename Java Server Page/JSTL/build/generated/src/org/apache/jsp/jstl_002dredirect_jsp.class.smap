@@ -1,0 +1,22 @@
+SMAP
+jstl_002dredirect_jsp.java
+JSP
+*S JSP
+*F
++ 0 jstl-redirect.jsp
+jstl-redirect.jsp
+*L
+5,11:60
+15:102,6
+15,2:73
+16:121,8
+17:129
+17:152,5
+17,2:132
+18,2:77
+19:170,8
+20:178
+20:201,5
+20,2:181
+21,4:81
+*E

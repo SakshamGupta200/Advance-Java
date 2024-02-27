@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="design/style.css">
+</head>
+<body>
+	<div class="outer">
+		<div class="menu">
+				<nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                    <a href="#" class="navbar-brand"><img src="img/logo.png"></a>
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Class</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+		</div>
+		<div class="banner"></div>
+		
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+</body>
+</html>

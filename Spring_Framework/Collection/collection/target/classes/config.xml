@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+	<bean class="collect.collection.StuList" name="ListDetails">
+			
+			
+			<property name="listid" value="121"></property>
+			<property name="phone">
+				<list>
+					<value>6393454946</value>
+					<value>9682454946</value>
+					<value>6359454946</value>
+				</list>
+			</property>
+			<property name="address">
+				<set>
+					<value>Varanasi</value>
+					<value>Bhadohi</value>
+					<value>Mau</value>
+				</set>
+			</property>
+			<property name="course">
+				<map>
+					<entry key="221" value="python"></entry>
+					<entry key="222" value="C++"></entry>
+					<entry key="223" value="Java"></entry>
+				</map>
+			</property>
+	</bean>
+</beans>

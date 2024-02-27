@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="design/emp.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="add">
+                <h1>Add Employee</h1>
+                <form action="List.jsp" method="post">
+                    <div class="form-group">
+                        <label for="empid">Enter Employee Id</label>
+                        <input type="text" name="empid" class="form-control" id="empid" >
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Enter Name</label>
+                        <input type="text" name="name" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Dept">Enter Department Id</label>
+                        <input type="text" name="deptid" class="form-control" id="Dept">
+                    </div>
+                    <div class="form-group">
+                        <label for="salary">Enter Salary</label>
+                        <input type="text" name="salary" class="form-control" id="salary"  >
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Enter Age</label>
+                        <input type="text" name="age" class="form-control" id="age">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Joining Date</label>
+                        <input type="datetime" name="joindate" class="form-control" id="date" >
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Add Book" class="btn btn-success">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

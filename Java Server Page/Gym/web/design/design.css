@@ -1,0 +1,75 @@
+.outer{
+    height: 100%;
+    width: 100vw;
+    background-color: violet;
+}
+.banner{
+    height: 600pt;
+    width: 100%;
+    background: url("../img/slides/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-nav{
+    margin-left: 35vw;
+}
+.nav li{
+    margin: 2pt 8pt;
+    margin-top: -31pt;
+    font-size: 0.5cm;
+    font-family: ui-monospace;
+}
+.nav li:hover{
+    background-color: red;
+   
+}
+.navbar-default .navbar-nav>li>a {
+    color: aqua;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+.quote{
+    zoom: 1;
+    bottom: 198px;
+    background-color: transparent;
+    color: #fff;
+    margin: 0;
+    padding: 2px 25px 0px 30px;
+    /* position: absolute; */
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    right: 0px;
+    display: inline-block;
+    bottom: 10%;
+    width: 76%;
+    right: 0 !important;
+    border-radius: 15px 15px 0 0;
+    text-align: left;
+    background: rgba(0,0,0,.8);
+    margin-left: 5px;
+    bottom: 5px;
+    position: absolute;
+    padding: 20px;
+    z-index: 99;
+    width: 55%;
+}
+.quote h2{
+    font-size: 65pt;
+}
+.quote p{
+    font-size: 1cm;
+}
+.work{
+    height: 500pt;
+    width: 100%;
+/*    background-color: #EC4141;
+    color: #F2F2F2;*/
+background-color: red;
+
+}

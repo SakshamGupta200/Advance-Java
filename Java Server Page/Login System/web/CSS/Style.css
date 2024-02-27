@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    height: 100%;
+    width: 100vw;
+    background-color: red;
+}
+.banner{
+    height: 50vh;
+    width: 100vw;
+    background-color: yellow;
+   
+}
+.banner img{
+    height: 50vh;
+    width: 100vw;
+}
+.menu{
+    height: 10vh;
+    width: 100vw;
+/*    background-color: green;*/
+}
+.navbar{
+    height: 10vh;
+}
+.nav li{
+    margin: 4pt 41pt;
+}
+.work{
+    height: 100vh;
+    width: 100vw;
+    background-color: cyan;
+}
+.form-group{
+    width: 50%;
+}
+.log{
+    height: 50vh;
+    width: 50vw;
+    background: linear-gradient(orangered,yellow);
+    border: 2pt groove blue;
+}
+
+.footer{
+    height: 30vh;
+    width: 100vw;
+    background-color: violet;
+}
+

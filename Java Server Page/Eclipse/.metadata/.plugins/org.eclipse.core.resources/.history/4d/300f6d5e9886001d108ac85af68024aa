@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+		<c:set var="vegetables">
+        <vegetables>
+            <vegetable>
+            <name>Onion</name>
+            <price>Rs.25/kg</price>
+        </vegetable>
+        
+        <vegetable>
+            <name>Potato</name>
+            <price>Rs.20/kg</price>
+        </vegetable>
+        <vegetable>
+            <name>Tomato</name>
+            <price>Rs.10/kg</price>
+        </vegetable>
+    </vegetables>
+        </c:set>
+        <x:parse xml="${vegetables}" var="output"></x:parse>
+        Vegetable Name:
+        <x:out select="$output/vegetables/vegetable[1]/name"></x:out>
+</body>
+</html>

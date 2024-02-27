@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+.outer {
+            height: 100%;
+            width: 1300px;
+            background-color: white;
+        }
+
+        .middle {
+            height: 600px;
+            width: 1300px;
+            background: linear-gradient(purple, green);
+
+        }
+
+        .row {
+            height: 250px;
+            width: 400px;
+            background-color: white;
+            float: left;
+        }
+
+        .row-2 {
+            height: 250px;
+            width: 400px;
+            background-color: white;
+            float: left;
+            margin-left: 25px;
+        }
+
+        .row-3 {
+            height: 250px;
+            width: 400px;
+            background-color: white;
+            float: left;
+            margin-left: 25px;
+        }
+
+        .row-4 {
+            height: 250px;
+            width: 400px;
+            background-color: white;
+            float: left;
+            margin-top: 30px;
+
+        }
+
+        .row-5 {
+            height: 250px;
+            width: 400px;
+            background-color: white;
+            float: left;
+            margin-top: 30px;
+            margin-left: 25px;
+
+
+        }
+
+        .row-6 {
+            height: 250px;
+            width: 400px;
+            background-color: white;
+            float: left;
+            margin-top: 30px;
+            margin-left: 25px;
+
+        }
+
+        input[type=submit] {
+            margin-left: 150px;
+            background-color: yellow;
+            color: black;
+            font-weight: bolder;
+        }

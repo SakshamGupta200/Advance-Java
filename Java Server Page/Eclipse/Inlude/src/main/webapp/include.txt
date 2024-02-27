@@ -1,0 +1,4 @@
+<jsp:include page="header.html">
+<div class="work">
+</div>
+<jsp:include page="footer.html">

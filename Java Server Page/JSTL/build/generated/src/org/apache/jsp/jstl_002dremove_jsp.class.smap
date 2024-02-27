@@ -1,0 +1,18 @@
+SMAP
+jstl_002dremove_jsp.java
+JSP
+*S JSP
+*F
++ 0 jstl-remove.jsp
+jstl-remove.jsp
+*L
+5,11:60
+15:109,7
+15,3:73
+17:129,5
+17,4:78
+20:147,5
+20,2:84
+21:165,5
+21,4:88
+*E

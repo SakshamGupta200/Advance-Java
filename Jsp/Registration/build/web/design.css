@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 Aug, 2022, 12:20:11 PM
+    Author     : Gryfindor
+*/
+
+.sign{
+    height: 480px;
+    width: 480px;
+    background : linear-gradient(gold,yellow);
+    
+}
+.sign h1{
+    margin-left: 150px;
+    font-family: cursive;
+}
+.sign input{
+    padding: 10px;
+    margin: 5px 15px;
+}

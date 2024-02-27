@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<books>
+    <book>
+        <id>1001</id>
+        <name>vxs</name>
+        <writer>sdcs</writer>
+        <price>2022</price>
+    </book>
+    <book>
+        <id>1001</id>
+        <name>vxs</name>
+        <writer>sdcs</writer>
+        <price>252</price>
+    </book>
+    <book>
+        <id>1001</id>
+        <name>vxs</name>
+        <writer>sdcs</writer>
+        <price>202</price>
+    </book>
+    
+</books>
+
